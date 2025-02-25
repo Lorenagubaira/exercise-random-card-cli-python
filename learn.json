@@ -1,18 +1,26 @@
 {
-	"title" : "Random Card Generator CLI",
+	"title" : {
+		"us": "Random Card Generator CLI",
+		"es": "Generador de cartas aleatorias CLI"
+	},
 	"slug" : "random-card-cli-python",
 	"status": "published",
 	"solution": "https://github.com/breatheco-de/exercise-random-card-cli-python/tree/solution",
 	"preview": "https://github.com/breatheco-de/exercise-random-card-cli-python/blob/master/preview.gif?raw=true",
 	"duration" : 4,
-	"template_url": "self",
     	"difficulty": "beginner",
-	"description" : "Use your Python skills to randomly draw a poker card on every time the algorithm runs",
+	"description" : {
+		"us": "Use your Python skills to create an algorithm that draws a random poker card every time it runs. The card must display one of four suits (Hearts, Spades, Clubs, Diamonds) and a value between 1-10, King, Queen, Jack, or Ace. Run the script, and a new random card will show on the console each time.",
+		"es": "Usa tus habilidades en Python para crear un algoritmo que saque una carta de póker aleatoria cada vez que se ejecute. La carta debe mostrar uno de los cuatro palos (Corazones, Espadas, Tréboles, Diamantes) y un valor entre 1-10, Rey, Reina, Jota o As. Cada vez que ejecutes el script, aparecerá una nueva carta aleatoria en la consola."
+	},
     	"technologies": ["python", "terminal", "command-line"],
 	"talents": [
 		{ "badge": "identator", "points": 6 },
 		{ "badge": "functional-developer", "points": 6 }
 	],
     "autoPlay": false,
-    "projectType": "project"
+    "projectType": "project",
+    "telemetry": {
+			"batch": "https://breathecode.herokuapp.com/v1/assignment/me/telemetry?asset_id=160"
+		}
 }
